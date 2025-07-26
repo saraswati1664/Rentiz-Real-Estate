@@ -215,5 +215,13 @@
     margin-top: 50px;
     text-align: center;
     }
+@keyframes z-to-f{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}    
     
 }

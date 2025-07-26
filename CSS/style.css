@@ -171,6 +171,8 @@ form .check-me label span a:hover{
     position: absolute;
     background-color: white;
     width: 60%;
+    transition: width ease-out 0.3s;
+    animation: z-to-f 1s ease-out 0.3s  normal ;
 }
 .select-main{
     border-right: 1px solid #d6d6d6;
@@ -390,7 +392,14 @@ footer{
 .lower-footer p a{
     color: #d6d6d6;
 }
-
+@keyframes z-to-f{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
 
 
 
