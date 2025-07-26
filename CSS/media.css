@@ -204,3 +204,16 @@
     text-align: center;
     }
 }
+@media (max-width:450px) {
+  .owl-nav {
+    display: none;
+  }
+.search-button-1 {
+    width: 98%;
+}
+.images-5 {
+    margin-top: 50px;
+    text-align: center;
+    }
+    
+}
