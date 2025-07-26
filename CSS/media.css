@@ -35,10 +35,7 @@
     border-radius: .25rem;
     transition: box-shadow .15s ease-in-out;
     }
- }
-
- @media (min-width:768px) and (max-width:992px){
-    /* sec-1 */
+     /* sec-1 */
     body .sec-1 .row {
     flex-direction: column-reverse;
     }
@@ -57,6 +54,9 @@
     .search-button-1 {
     width: 99%;
     }
+ }
+
+ @media (min-width:768px) and (max-width:992px){
     .h1-style {
     font-size: 42px;
     font-weight: 600;
@@ -96,4 +96,111 @@
     .padding-do {
     padding: 80px 0;
 }    
+}
+@media(min-width:576px) and (max-width:768px){
+    /* sec-1 */
+    .h1-style {
+    font-size: 50px;
+    }
+    .sec-1-para {
+    font-size: 18px;
+    }
+    /* sec-2 */
+    .section-headings {
+    font-size: 40px;
+    }
+    .images-5{
+    margin: 20px 0;
+    text-align: center;
+    }
+    /* sec-3 */
+    .owl-nav button.owl-prev {
+    left: -20px;
+    }
+    .owl-nav button.owl-next {
+    right: -20px;
+    }
+    body .sec-3 .owl-slider .owl-stage .owl-item {
+    /* margin-right: 45px !important; */
+    margin-left: 25px !important;
+    }
+    /* sesc-5 */
+    .single-text-card {
+    margin-left: 0px; 
+     margin-right: 0px;
+    }
+    .single-text-card p {
+    font-size: 25px;
+    }
+    body .sec-5 .owl-nav button.owl-prev {
+    left: 345px;
+    }
+    body .sec-5 .owl-nav button.owl-next {
+    right: 50px;
+    }
+    body .sec-5 .owl-nav button.owl-next::before {
+    top: 140px;
+    }
+    /* footer */
+    .foot1 {
+    margin-top: 20px;
+    }
+    .padding-do {
+    padding: 70px 0;
+    }
 } 
+
+@media(max-width:576px){
+    /* footer */
+    .padding-do {
+    padding: 60px 0;
+    }
+    .foot1 {
+    margin-top: 15px;
+    }
+    /* sec-7 */
+    .h1-style {
+    font-size: 50px;
+    margin: 10px;
+    }
+    /* sec-6 */
+    h2.h2-style {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    }
+    /* sec-5 */
+    .single-text-card {
+    margin-left: 0px; 
+     margin-right: 0px;
+    }
+    .single-text-card p {
+    font-size: 25px;
+    }
+    body .sec-5 .owl-nav button.owl-prev {
+    left: 345px;
+    top: 250px;
+    bottom: unset;
+    }
+    body .sec-5 .owl-nav button.owl-next {
+    right: 50px;
+    top: 250px;
+    bottom: unset;
+}
+    body .sec-5 .owl-nav button.owl-next {
+    right: 65px;
+    }
+    body .sec-5 .owl-nav button.owl-next::before {
+    top: 7px;
+    }
+    /* sec-3 */
+    .owl-item {
+    width: 527.2px;
+    margin-right: 55px;
+    }
+    /* sec-2 */
+    .images-5 {
+    margin-top: 15px;
+    text-align: center;
+    }
+}
