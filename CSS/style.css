@@ -41,6 +41,9 @@ header .nav-item a::before{
     content: '';
     transition: all ease-out 0.3s;
 } 
+header .navbar-list{
+    justify-content: end;
+}
 header .nav-item a:focus::before{
     width: 100%;
     border: 2px solid #1aa090;
